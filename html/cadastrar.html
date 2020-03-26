@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1><strong>Cadastro de Medicos</strong></h1>
+    <form action="/cadastro" method="POST">
+   <!--Foto: <input type="image" src="" alt=""> <br>--> 
+    Nome Completo: <input type="text" name="nome_medico"><br>
+    E-mail: <input type="text" name="email_medico"><br>
+    CRM: <input type="text" name="crm_medico"><br>
+    Telefone: <input type="number" name="tel_medico"><br>
+    Especialidade: <input type="text" name="especialidade_medico"> <br>
+        <button type="submit">Cadastrar</button>
+    <input type="button" value="Inserir outra Especialidade" name="outra_especialidade_medico" onclick="outraespecialidade()">
+    </form>
+</body>
+
+</html>
